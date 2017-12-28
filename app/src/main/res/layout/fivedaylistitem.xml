@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tDay"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"
+        android:text="Day"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/Dayweather"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="DayWeather" />
+
+    <TextView
+        android:id="@+id/minDayTemp"
+
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="MaxDayTemp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/maxDayTemp"
+
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="right"
+        android:text="MinDayTemp"
+        />
+</LinearLayout>
